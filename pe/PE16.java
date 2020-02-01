@@ -3,7 +3,6 @@ package pe;
 import harness.PERunnable;
 
 import java.math.BigInteger;
-import java.util.Arrays;
 
 public class PE16 extends PERunnable<Integer> {
     @Override

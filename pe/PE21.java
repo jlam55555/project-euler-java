@@ -9,12 +9,9 @@ public class PE21 extends PERunnable<Integer> {
     @Override
     public Integer run(int version) {
         int i, j, sum;
-
-        // this value chosen to just be large enough
         int[] res = new int[n];
 
         for(i=2, sum=0; i<n; i++) {
-
             if(res[i]!=0) {
                 if (res[i] == 1)
                     sum += i;

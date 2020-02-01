@@ -7,7 +7,7 @@ import static math.Primes.sieve;
 
 public class PE7 extends PERunnable<Integer> {
     private int method1() {
-        return sieve(105000).get(10001);
+        return sieve(105000).get(10000);
     }
     private int method2() {
         int i, count;
