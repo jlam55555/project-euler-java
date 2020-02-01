@@ -5,6 +5,7 @@ import harness.PERunnable;
 import java.math.BigInteger;
 
 public class PE97 extends PERunnable<Long> {
+
     private long method1() {
         BigInteger exp = BigInteger.valueOf(7830457),
                 mod = BigInteger.valueOf(10000000000L),
@@ -39,6 +40,31 @@ public class PE97 extends PERunnable<Long> {
         return r.longValue()+1;
     }
 
+    // this uses a custom multiplication algorithm to bypass
+    // using BigInteger; much faster but optimized for this problem
+    // with the answer in mind
+    final static long z = 10000000000L;
+    private long lmm(long m, long n) {
+        long a = m>>24,
+             b = m&0xffffff,
+             c = n>>24,
+             d = n&0xffffff;
+        return (((((a*c)<<24)%z)<<24)%z + ((a*d%z)<<24)%z
+                + ((b*c%z)<<24)%z + b*d%z)%z;
+    }
+    private long method4() {
+        long r, x, n;
+        for(r = 28433,
+            x = 2,
+            n = 7830457;
+            n>0; n>>=1) {
+            if((n&1)==1)
+                r = lmm(r,x);
+            x = lmm(x,x);
+        }
+        return r+1;
+    }
+
     @Override
     public Long run(int version) {
         switch(version) {
@@ -48,6 +74,8 @@ public class PE97 extends PERunnable<Long> {
             return method2();
         case 2:
             return method3();
+        case 3:
+            return method4();
         }
         return -1L;
     }
