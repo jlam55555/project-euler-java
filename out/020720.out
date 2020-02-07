@@ -1,0 +1,213 @@
+=====
+problem:	pe.PE1
+answer:		233168
+# trials:	8
+elapsed:	0.018083ms
+per trial:	0.002260ms
+=====
+problem:	pe.PE1
+answer:		233168
+# trials:	8
+elapsed:	0.055981ms
+per trial:	0.006998ms
+=====
+problem:	pe.PE1
+answer:		233168
+# trials:	8
+elapsed:	0.166567ms
+per trial:	0.020821ms
+=====
+problem:	pe.PE2
+answer:		4613732
+# trials:	8
+elapsed:	2.342454ms
+per trial:	0.292807ms
+=====
+problem:	pe.PE2
+answer:		4613732
+# trials:	8
+elapsed:	4.035373ms
+per trial:	0.504422ms
+=====
+problem:	pe.PE3
+answer:		6857
+# trials:	8
+elapsed:	55.399805ms
+per trial:	6.924976ms
+=====
+problem:	pe.PE4
+answer:		906609
+# trials:	8
+elapsed:	0.980474ms
+per trial:	0.122559ms
+=====
+problem:	pe.PE5
+answer:		232792560
+# trials:	8
+elapsed:	0.262948ms
+per trial:	0.032869ms
+=====
+problem:	pe.PE6
+answer:		25164150
+# trials:	8
+elapsed:	0.005149ms
+per trial:	0.000644ms
+=====
+problem:	pe.PE7
+answer:		104743
+# trials:	8
+elapsed:	12.192940ms
+per trial:	1.524118ms
+=====
+problem:	pe.PE7
+answer:		104743
+# trials:	8
+elapsed:	80.772177ms
+per trial:	10.096522ms
+=====
+problem:	pe.PE8
+answer:		23514624000
+# trials:	8
+elapsed:	2.577438ms
+per trial:	0.322180ms
+=====
+problem:	pe.PE9
+answer:		31875000
+# trials:	8
+elapsed:	142.609103ms
+per trial:	17.826138ms
+=====
+problem:	pe.PE10
+answer:		142913828922
+# trials:	8
+elapsed:	110.628061ms
+per trial:	13.828508ms
+=====
+problem:	pe.PE11
+answer:		70600674
+# trials:	8
+elapsed:	0.804785ms
+per trial:	0.100598ms
+=====
+problem:	pe.PE12
+answer:		76576500
+# trials:	8
+elapsed:	1052.002120ms
+per trial:	131.500265ms
+=====
+problem:	pe.PE13
+answer:		5537376230
+# trials:	8
+elapsed:	0.775445ms
+per trial:	0.096931ms
+=====
+problem:	pe.PE14
+answer:		837799
+# trials:	8
+elapsed:	2023.783421ms
+per trial:	252.972928ms
+=====
+problem:	pe.PE15
+answer:		137846528820
+# trials:	8
+elapsed:	0.185356ms
+per trial:	0.023170ms
+=====
+problem:	pe.PE16
+answer:		1366
+# trials:	8
+elapsed:	5.435348ms
+per trial:	0.679419ms
+=====
+Warning: class is not restartable. Only running once.
+problem:	pe.PE18
+answer:		1074
+elapsed:	0.018136ms
+=====
+problem:	pe.PE20
+answer:		648
+# trials:	8
+elapsed:	3.289304ms
+per trial:	0.411163ms
+=====
+problem:	pe.PE21
+answer:		31626
+# trials:	8
+elapsed:	35.968305ms
+per trial:	4.496038ms
+=====
+Warning: class is not restartable. Only running once.
+problem:	pe.PE22
+answer:		871198282
+elapsed:	18.791239ms
+=====
+problem:	pe.PE23
+answer:		4179871
+# trials:	8
+elapsed:	1241.432515ms
+per trial:	155.179064ms
+=====
+problem:	pe.PE24
+answer:		2783915460
+# trials:	8
+elapsed:	20.651201ms
+per trial:	2.581400ms
+=====
+problem:	pe.PE25
+answer:		4782
+# trials:	8
+elapsed:	1066.014170ms
+per trial:	133.251771ms
+=====
+problem:	pe.PE26
+answer:		983
+# trials:	8
+elapsed:	59.231487ms
+per trial:	7.403936ms
+=====
+problem:	pe.PE27
+answer:		-59231
+# trials:	8
+elapsed:	62.442000ms
+per trial:	7.805250ms
+=====
+problem:	pe.PE28
+answer:		669171001
+# trials:	8
+elapsed:	0.101318ms
+per trial:	0.012665ms
+=====
+problem:	pe.PE28
+answer:		669171001
+# trials:	8
+elapsed:	0.004887ms
+per trial:	0.000611ms
+=====
+Warning: class is not restartable. Only running once.
+problem:	pe.PE67
+answer:		7273
+elapsed:	0.489465ms
+=====
+problem:	pe.PE97
+answer:		8739992577
+# trials:	8
+elapsed:	1.577694ms
+per trial:	0.197212ms
+=====
+problem:	pe.PE97
+answer:		8739992577
+# trials:	8
+elapsed:	209.042564ms
+per trial:	26.130321ms
+=====
+problem:	pe.PE97
+answer:		8739992577
+# trials:	8
+elapsed:	0.608742ms
+per trial:	0.076093ms
+=====
+problem:	pe.PE97
+answer:		8739992577
+# trials:	8
+elapsed:	0.072021ms
+per trial:	0.009003ms

@@ -3,8 +3,7 @@ import pe.*;
 
 public class PEDriver {
     public static void main(String[] args) {
-//        runAll();
-        Testing.testMany(new PE26(), 0, 1);
+        runAll();
     }
 
     public static void runAll() {
@@ -37,6 +36,9 @@ public class PEDriver {
         Testing.testMany(new PE24(), 0, TRLS);
         Testing.testMany(new PE25(), 0, TRLS);
         Testing.testMany(new PE26(), 0, TRLS);
+        Testing.testMany(new PE27(), 0, TRLS);
+        Testing.testMany(new PE28(), 0, TRLS);
+        Testing.testMany(new PE28(), 1, TRLS);
         Testing.testMany(new PE67(), 0, TRLS);
         Testing.testMany(new PE97(), 0, TRLS);
         Testing.testMany(new PE97(), 1, TRLS);

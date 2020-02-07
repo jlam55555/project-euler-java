@@ -29,4 +29,14 @@ public class Primes {
 
         return primes;
     }
+
+    // note that this fills array with 1 for composites, not primes, for simplicity
+    public static void sieve(int n, boolean[] array) {
+        int i, j;
+
+        for(i=2; i<sqrt(n); i++)
+            if(!array[i])
+                for(j=i*i; j<n; j+=i)
+                    array[j] = true;
+    }
 }
