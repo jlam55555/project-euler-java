@@ -2,7 +2,6 @@ package math;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Factors {
     // Euclidean algorithm
@@ -12,6 +11,11 @@ public class Factors {
         if(n<1)
             return m;
         return m>n ? gcd(n, m-m/n*n) : gcd(m, n-n/m*m);
+    }
+
+    // to avoid excessive casting on user side
+    public static int gcd(int m, int n) {
+        return (int) gcd((long) m, n);
     }
 
     public static long lcm(long m, long n) {
