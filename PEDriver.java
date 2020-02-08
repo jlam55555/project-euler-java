@@ -39,6 +39,10 @@ public class PEDriver {
         Testing.testMany(new PE27(), 0, TRLS);
         Testing.testMany(new PE28(), 0, TRLS);
         Testing.testMany(new PE28(), 1, TRLS);
+        Testing.testMany(new PE29(), 0, TRLS);
+        Testing.testMany(new PE30(), 0, TRLS);
+        Testing.testMany(new PE31(), 0, TRLS);
+        Testing.testMany(new PE31(), 1, TRLS);
         Testing.testMany(new PE67(), 0, TRLS);
         Testing.testMany(new PE97(), 0, TRLS);
         Testing.testMany(new PE97(), 1, TRLS);
